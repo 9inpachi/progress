@@ -1,4 +1,4 @@
-# Marks the progress of the Phoenix for GSoC 2020
+# Progress of Phoenix for GSoC 2020
 
 For the moment, the work is being done on different branches at [https://github.com/9inpachi/phoenix](https://github.com/9inpachi/phoenix).
 The work in progress or the new features should be scattered in branches with the "wip-" prefix.
@@ -26,3 +26,25 @@ The work in progress or the new features should be scattered in branches with th
 ## Day 05 - 03 Jun 2020 - Wed
 - [x] Button for hiding and showing the UI menu (toolbar)
 - [x] Fix the expand icon and make it consistent with the other icons
+- [x] Replace the navigation bar with a single phoenix icon
+- [x] Handle inconsistencies in metadata that can appear in event data
+
+## Day 06 - 04 Jun 2020 - Thu
+- [x] Set up the info panel for merge
+- [x] Retain event display aspect ratio
+- [x] Add toggle to overlay view for a fixed overlay
+- [x] Collaborate on issues and ideas
+- [x] Look into GitHub actions for automated release
+
+## Day 07 - 05 Jun 2020 - Fri
+- [x] Have a video meeting with Ed
+- [x] Look for ways to get JSON geometry
+- [x] Convert a group of deprecated JSON geometries to GLTF
+- [x] Debug why geometries have bugs in Phoenix (because of scaling)
+
+## Day 08 - 06 Jun 2020 - Sat
+- [x] Try out (a lot) of ways to improve geometry
+- [x] Use four updated directional lights to improve lighting (can also use camera light - TBD)
+- [x] Find out how geometries can be smoothen
+- [x] Use MeshPhongMaterial with 0 shininess for geometries (huge improvement)
+- [x] Add toggle for closing clipped geometries and a slider for scaling all detector geometry (for debugging)
