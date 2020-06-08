@@ -48,3 +48,9 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Find out how geometries can be smoothen
 - [x] Use MeshPhongMaterial with 0 shininess for geometries (huge improvement)
 - [x] Add toggle for closing clipped geometries and a slider for scaling all detector geometry (for debugging)
+
+## Day 09 - 07 Jun 2020 - Sun
+- [x] Shift close clipped geometries option to UI menu
+- [x] Try fixing closing of clipped geometries by toggling the clipping option (does not work - works manually)
+- [x] Scale ATLAS geometries to normal size (not implemented in Phoenix)
+- [x] Further debugged renderer and cameras for geometry and found that the camera's frustum near plane needs to be larger (fixes geometry bugs)
