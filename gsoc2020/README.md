@@ -51,6 +51,22 @@ The work in progress or the new features should be scattered in branches with th
 
 ## Day 09 - 07 Jun 2020 - Sun
 - [x] Shift close clipped geometries option to UI menu
-- [x] Try fixing closing of clipped geometries by toggling the clipping option (does not work - works manually)
+- [ ] Try fixing closing of clipped geometries by toggling the clipping option (does not work - works manually)
 - [x] Scale ATLAS geometries to normal size (not implemented in Phoenix)
 - [x] Further debugged renderer and cameras for geometry and found that the camera's frustum near plane needs to be larger (fixes geometry bugs)
+
+## Day 10 - 08 Jun 2020 - Mon
+- [x] Separate ATLAS geometry parts in glTF format
+- [x] Update glTF loading to support scaling of geometries and specification of side
+- [x] Option in UI menu for closing clipped geometries
+- [x] Option for scaling the complete detector (for debugging?)
+
+## Day 11 - 09 Jun 2020 - Tue
+- [x] Update to use a single directional light that follows the camera (better performance)
+- [x] Update glTF loading to use the already existing geometry side specified in the glTF file
+- [x] Move the zoom controls to controls manager
+- [x] Highlight collection info on event object select
+
+## Day 12 - 10 Jun 2020 - Wed
+- [x] Link collection info panel with the scene
+- [x] Move camera to object from collection info
