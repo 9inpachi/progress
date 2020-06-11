@@ -70,3 +70,11 @@ The work in progress or the new features should be scattered in branches with th
 ## Day 12 - 10 Jun 2020 - Wed
 - [x] Link collection info panel with the scene
 - [x] Move camera to object from collection info
+- [x] Debug why the quality of Phoenix scene is low
+- [x] Try setting antialiasing and pixel ratio for improving resolution (does not work)
+- [x] Add FXAAShader to improve rendering of objects (works but quality not good)
+
+## Day 13 - 11 Jun 2020 - Thu
+- [x] Add option for highlighting objects from the collections info panel
+- [x] Make collections info panel height dynamic so resizing the overlay panel resizes the collections info table
+- [x] Add icons to collection info table for "look at object" and "highlight" object functions
