@@ -78,3 +78,16 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Add option for highlighting objects from the collections info panel
 - [x] Make collections info panel height dynamic so resizing the overlay panel resizes the collections info table
 - [x] Add icons to collection info table for "look at object" and "highlight" object functions
+- [x] Fix LHCb loader bug by handling undefined event data elements
+
+## Day 14 - 12 Jun 2020 - Fri
+- [x] Make collections info selection work for muons and some misc improvements
+- [x] Learn and work on GitHub actions for Phoenix deployment
+- [x] Write an action for deploying Phoenix for every push to master branch
+- [x] Write an action for releasing Phoenix for pushing to a tag
+
+## Day 15 - 13 Jun 2020 - Sat
+- [ ] Weekend
+
+## Day 16 - 14 Jun 2020 - Sun
+- [ ] Weekend
