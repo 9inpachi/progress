@@ -91,3 +91,24 @@ The work in progress or the new features should be scattered in branches with th
 
 ## Day 16 - 14 Jun 2020 - Sun
 - [ ] Weekend
+
+## Day 17 - 15 Jun 2020 - Mon
+- [x] Remove options for closing clipped geometries and scaling detector from branch `wip-atlas-geom`
+- [x] Fix "look at object" for Tracks, Hits and Muons (using bounding sphere for Tracks and Hits)
+- [x] Add loader for loading geometries from JSON
+- [x] Fix HSF/phoenix#73 by using a combination of Tube and Line for tracks
+
+## Day 18 - 16 Jun 2020 - Tue
+- [x] Improve lights and add parameter for using camera lights in SceneManager
+- [x] Study Runge-Kutta methods for implementation
+- [x] Update metadata to optionally use label and value
+- [x] Fix some minor typos and rectify PRs from `wip-collections` (selection from collections info) and `wip-atlas-geom` (improvement of geometries) branches
+
+## Day 19 - 17 Jun 2020 - Wed
+- [x] Remove glTF ATLAS geometries (keep a backup)
+- [x] Minor code improvements
+- [x] Simplify experiment info template code
+- [x] Port Runge-Kutta to typescript
+
+## Day 20 - 18 Jun 2020 - Thu
+- [x] Document and improve Runge-Kutta port
