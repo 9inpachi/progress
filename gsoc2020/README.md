@@ -112,3 +112,19 @@ The work in progress or the new features should be scattered in branches with th
 
 ## Day 20 - 18 Jun 2020 - Thu
 - [x] Document and improve Runge-Kutta port
+- [x] Fix overlay `title` property by changing it to `overlayTitle` to avoid overlap with HTML `title` attribute
+- [x] Fix info logger glitches because of reversing array for each render
+- [x] Fix depthTest not working for event data after updating Tracks to use a combination of `Tube` and `Line`
+
+## Day 21 - 19 Jun 2020 - Fri
+- [x] Minor fixes to the Runge-Kutta port
+- [x] Try making Runge-Kutta work for ATLAS/Phoenix loader (the current JSON format for ATLAS does not have the required track properties)
+- [x] Try making Runge-Kutta work for LHCb loader (three dimensional momentum causing problems but we do get some incorrect lines)
+- [x] Try making Runge-Kutta work for CMS loader (could not find data for tracks momentum)
+
+## Day 22 - 20 Jun 2020 - Sat
+- [x] Email Andreas to ask some questions regarding the Runge-Kutta implementation
+- [ ] Weekend
+
+## Day 23 - 21 Jun 2020 - Sun
+- [ ] Weekend
