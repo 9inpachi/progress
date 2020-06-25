@@ -128,3 +128,29 @@ The work in progress or the new features should be scattered in branches with th
 
 ## Day 23 - 21 Jun 2020 - Sun
 - [ ] Weekend
+
+## Day 24 - 22 Jun 2020 - Mon
+- [x] Fix cuts not working for Tracks and assign uuid to object params (was using reference before)
+- [x] Look up formulas for using transverse momentum (could not find anything useful)
+- [x] Again give a try to making Runge-Kutta work for LHCb loader (no success)
+- [x] Again give a try to making Runge-Kutta work for CMS loader (no success)
+
+## Day 25 - 23 Jun 2020 - Tue
+- [x] Set up CMS loader
+- [x] Improve event metadata collection in PhoenixLoader
+- [x] Set up CMS experiment section with test event data
+- [x] Support for objects as hits parameters in `PhoenixObjects.getHits(hitsParams)`
+- [x] Update CMS loader to get and process all collections of clusters from the event data
+- [x] Get CMS specific event metadata
+
+## Day 26 - 24 Jun 2020 - Wed
+- [x] Update CMS loader to get and process any collection of tracks from the event data (there is either `Tracks_V1`, `Tracks_V2` or `Tracks_V3`)
+- [x] Study tracking in ATLAS
+- [x] Convert local perigee params of tracks to global params
+- [x] Try making Runge-Kutta work for ATLAS (we do extrapolate event-like tracks)
+
+## Day 27 - 25 Jun 2020 - Thu
+- [x] Support for Jets collections in CMS loader
+- [x] Support for CaloClusters in CMS loader and other improvements
+- [x] Find out that antialiasing works on previous Phoenix version (three.js r104)
+- [x] Debug antialiasing in the current version and find fix (because of `EffectComposer` being rendered after the main renderers)
