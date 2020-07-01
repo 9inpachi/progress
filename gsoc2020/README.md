@@ -154,3 +154,31 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Support for CaloClusters in CMS loader and other improvements
 - [x] Find out that antialiasing works on previous Phoenix version (three.js r104)
 - [x] Debug antialiasing in the current version and find fix (because of `EffectComposer` being rendered after the main renderers)
+
+## Day 28 - 26 Jun 2020 - Fri
+- [x] Update CMS loader to use a common function and improve `PhoenixObjects`
+- [x] Add support for all possible collections of tracks in CMS
+- [x] Support for custom CMS objects (MuonChambers)
+- [x] An example of using a custom object type with Phoenix
+
+## Day 29 - 27 Jun 2020 - Sat
+- [ ] Weekend
+
+## Day 30 - 28 Jun 2020 - Sun
+- [ ] Weekend
+
+## Day 31 - 29 Jun 2020 - Mon
+- [x] Analyze the current Phoenix JSON format
+- [x] Add RungeKutta tracks as duplicate collections for debugging
+- [x] Optimize loading ".ig" files and move the functions to CMS loader
+- [x] Ability to read and get all events from an ".ig" file
+
+## Day 32 - 30 Jun 2020 - Tue
+- [x] Detailed video call with Edward
+- [x] Debug RungeKutta tracks
+- [x] Start making a script for loading and converting encoded JSON geometries to glTF
+- [x] Add geometry to CMS, add CMS experiment card and make the pull request for CMS integration
+
+## Day 33 - 01 Jul 2020 - Wed
+- [x] Convert tracer geometries to glTF
+- [x] Automated export for encoded JSON geometries
