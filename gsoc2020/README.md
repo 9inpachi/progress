@@ -182,3 +182,17 @@ The work in progress or the new features should be scattered in branches with th
 ## Day 33 - 01 Jul 2020 - Wed
 - [x] Convert tracer geometries to glTF
 - [x] Automated export for encoded JSON geometries
+- [x] Try making Jets scalable and increase maximum Jet length to 3000 (2000 previously)
+- [x] Scale Jets by removing current Jets and generating new ones with higher energy (has bugs)
+
+## Day 34 - 02 Jul 2020 - Thu
+- [ ] Try fixing bugs for making Jets scalable with the remove / add approach
+- [x] Explore and implement more options for scaling Jets - tried a lot but most do not work
+- [x] Write simplistic logic for scaling Jets by scaling `Mesh`, resetting position using scale and then changing the position again
+- [x] Fix and improve event data depthTest
+
+## Day 35 - 03 Jul 2020 - Fri
+- [x] Analyze event data JSON to check the structure
+- [x] Propose a new event data JSON format for reducing event data size
+- [x] Implement conversion of current event data JSON to new event data JSON
+- [x] Implement conversion of new event data JSON to event data JSON used by Phoenix framework
