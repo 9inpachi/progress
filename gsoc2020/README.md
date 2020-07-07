@@ -196,3 +196,15 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Propose a new event data JSON format for reducing event data size
 - [x] Implement conversion of current event data JSON to new event data JSON
 - [x] Implement conversion of new event data JSON to event data JSON used by Phoenix framework
+
+## Day 36 - 04 Jul 2020 - Sat
+- [ ] Weekend
+
+## Day 37 - 05 Jul 2020 - Sun
+- [x] Generalize `ControlsManager.lookAtObject` to make it work with any kind of object
+
+## Day 38 - 06 Jul 2020 - Mon
+- [x] Add support in CMS for loading all events from ".ig" file in Phoenix
+- [x] Support for multiple events in new event data format
+- [x] Start working on experiment controls
+- [x] Think of a proper architecture for experiment control item
