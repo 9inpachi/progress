@@ -208,3 +208,9 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Support for multiple events in new event data format
 - [x] Start working on experiment controls
 - [x] Think of a proper architecture for experiment control item
+
+## Day 39 - 07 Jul 2020 - Tue
+- [x] Completely style experiment control item
+- [x] Work towards architecture for dynamically adding children and config
+- [x] Create `ConfigCheckbox` for experiment control item config
+- [x] Support for toggle, children and config in experiment control item (not working yet)
