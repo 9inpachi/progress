@@ -214,3 +214,17 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Work towards architecture for dynamically adding children and config
 - [x] Create `ConfigCheckbox` for experiment control item config
 - [x] Support for toggle, children and config in experiment control item (not working yet)
+
+## Day 40 - 08 Jul 2020 - Wed
+- [x] Debug issues with experiment controls
+- [x] Use `ChangeDetectorRef` for detecting changes to experiment controls after adding children and configuration
+- [x] Make toggle functions work for experiment controls
+- [x] Make adding configuration to experiment controls simple
+
+## Day 41 - 09 Jul 2020 - Thu
+- [x] Make custom config slider and config checkbox for experiment controls
+- [x] Implement working experiment controls in the playground
+- [x] Implement experiment controls in the UI service
+- [x] Improve custom config slider's code and style
+- [x] Make it easier to incrementally add configuration and children by returning valid objects through `addChild` and `addConfig`
+- [x] Add options for removing experiment control items and their children
