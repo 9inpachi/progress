@@ -228,3 +228,27 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Improve custom config slider's code and style
 - [x] Make it easier to incrementally add configuration and children by returning valid objects through `addChild` and `addConfig`
 - [x] Add options for removing experiment control items and their children
+
+## Day 42 - 10 Jul 2020 - Fri
+- [x] Make experiment controls optional in UI service
+- [x] REARCHITECT THE EXPERIMENT CONTROLS
+- [x] Use a node based structure for experiment controls which is simpler and easily extendable
+- [x] Add tree level identification to experiment controls and make other major changes to experiment controls
+
+## Day 43 - 11 Jul 2020 - Sat
+- [x] Weekend
+
+## Day 44 - 12 Jul 2020 - Sun
+- [x] Weekend
+
+## Day 45 - 13 Jul 2020 - Mon
+- [x] Add option to change the visibility of detector children so that children can be made visible even if parent is invisible
+- [x] Try out different experiment controls depth identification styles and settle with left border with margin on children
+- [x] Use a common label for all config types
+- [x] Add configuration option for color
+
+## Day 46 - 14 Jul 2020 - Tue
+- [x] Cannot keep state of configuration components because using ngIf and if we don't use ngIf then lots of computing required.
+- [x] Rename `experiment-controls` to `phoenix-menu`
+- [x] Include configuration for changing color of event data
+- [x] Finalize styling of phoenix menu
