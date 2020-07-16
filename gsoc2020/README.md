@@ -186,7 +186,7 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Scale Jets by removing current Jets and generating new ones with higher energy (has bugs)
 
 ## Day 34 - 02 Jul 2020 - Thu
-- [ ] Try fixing bugs for making Jets scalable with the remove / add approach
+- [ ] Try fixing bugs for making Jets scalable with the remove/add approach
 - [x] Explore and implement more options for scaling Jets - tried a lot but most do not work
 - [x] Write simplistic logic for scaling Jets by scaling `Mesh`, resetting position using scale and then changing the position again
 - [x] Fix and improve event data depthTest
@@ -252,3 +252,13 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Rename `experiment-controls` to `phoenix-menu`
 - [x] Include configuration for changing color of event data
 - [x] Finalize styling of phoenix menu
+
+## Day 47 - 15 Jul 2020 - Wed
+- [ ] Moved to weekend because had an interview
+
+## Day 48 - 16 Jul 2020 - Thu
+- [x] Change new event data format (the one that uses types) to declare parameters/types for each object type collection separately
+- [x] Find that the new event data format is not actually any good (was comparing the minified version)
+- [x] Move pheonix menu to the right
+- [x] Make dat.GUI menu optional and disabled by default
+- [x] Support for icons in phoenix menu
