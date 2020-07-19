@@ -262,3 +262,16 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Move pheonix menu to the right
 - [x] Make dat.GUI menu optional and disabled by default
 - [x] Support for icons in phoenix menu
+
+## Day 49 - 17 Jul 2020 - Fri
+- [x] Add phoenix menu to ATLAS and all other experiments
+- [x] Remove custom checkbox configuration for phoenix menu since its redundant for the latest iteration
+- [x] Final improvements to phoenix menu
+- [x] Open pull request for phoenix menu and write all details including usage
+
+## Day 50 - 18 Jul 2020 - Sat
+- [x] Start integration of JSRoot (tried a lot of ways)
+- [x] Try integrating JSRoot by globally adding scripts to `index.html` (doesn't load extra required scripts like `?geom`)
+- [x] Try integrating JSRoot by adding scripts to `angular.json` (not ideal because we don't have to have the scripts available throughout the application)
+- [x] Try integrating JSRoot with requirejs (not ideal either because we have to include requirejs first for JSRoot to define modules)
+- [x] Try different ways of using `ngx-script-loader` for dynamically loading the required scripts at run time (only loaded when required)
