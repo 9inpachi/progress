@@ -275,3 +275,15 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Try integrating JSRoot by adding scripts to `angular.json` (not ideal because we don't have to have the scripts available throughout the application)
 - [x] Try integrating JSRoot with requirejs (not ideal either because we have to include requirejs first for JSRoot to define modules)
 - [x] Try different ways of using `ngx-script-loader` for dynamically loading the required scripts at run time (only loaded when required)
+
+## Day 51 - 19 Jul 2020 - Sun
+- [x] Synchronize JSRoot load with async await
+- [x] Make a function for loading JSRoot once and use that (JSROOT becomes available in a callback function)
+- [x] Make a custom function for loading JSRoot scripts (and not use `ngx-script-loader`)
+- [x] Transform JSRoot script loader to a generalized script loader
+
+## Day 52 - 20 Jul 2020 - Mon
+- [x] Add functions for loading JSRoot geometry from `.json.gz` and `.root` and use `.json.gz` geometry for CMS
+- [x] Preserve state of different phoenix menu elements
+- [x] Try getting event data from `.root` file
+- [x] Analyze JSRoot objects for relevant data
