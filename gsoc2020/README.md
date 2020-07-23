@@ -287,3 +287,24 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Preserve state of different phoenix menu elements
 - [x] Try getting event data from `.root` file
 - [x] Analyze JSRoot objects for relevant data
+
+## Day 53 - 21 Jul 2020 - Tue
+- [x] Analyze JSRoot objects for specific geometry
+- [x] Analyze JSRoot objects for running C scripts (can only be done through painter)
+- [x] Analyze JSRoot objects TTree and TList for extracting event data (again only processed by the painter)
+- [x] Deflate JSRoot geometry colors
+- [x] Add parameter to load double sided JSON geometry
+
+## Day 54 - 22 Jul 2020 - Wed
+- [x] Go through JSRoot source code and check how event data is drawn
+- [x] Go through the JSRootPainter for possible event data leads
+- [x] Create `JSRootEventLoader` for loading event data from ".root" files
+- [x] Set up to get tracks and hits from event data the ".root" file
+- [x] Deeply analyze JSRoot code and port a different solution for extracing and using positions of `TEveTrack`s in phoenix format
+
+## Day 55 - 23 Jul 2020 - Thu
+- [x] Improve code and directly use `tracks.fP` to get track positions instead of using `BufferAttribute`
+- [x] Don't sort track positions because they cause problems for tracks with returning curves
+- [x] Process ".root" file and get hits data from the file and convert it to phoenix format
+- [x] Add support for `TGeoTrack`s to `JSRootEventLoader`
+- [x] Optionally make geometry initially invisible and visible on demand from the phoenix menu (fix-geometry-on-demand)
