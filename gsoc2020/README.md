@@ -307,4 +307,33 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Don't sort track positions because they cause problems for tracks with returning curves
 - [x] Process ".root" file and get hits data from the file and convert it to phoenix format
 - [x] Add support for `TGeoTrack`s to `JSRootEventLoader`
-- [x] Optionally make geometry initially invisible and visible on demand from the phoenix menu (fix-geometry-on-demand)
+
+## Day 56 - 24 Jul 2020 - Fri
+- [x] Optionally make geometry initially invisible and visible on demand from the phoenix menu (`fix-geometry-on-demand`)
+- [x] Make ATLAS geometry calorimeters invisible by default
+- [x] Finalize JSROOT implementation for loading geometry from ".root" and ".json.gz"
+- [x] Finalize JSROOT event loader for loading different tracks and hits
+
+## Day 57 - 25 Jul 2020 - Sat
+- [x] Final exam
+
+## Day 58 - 26 Jul 2020 - Sun
+- [x] Final exam
+
+## Day 59 - 27 Jul 2020 - Mon
+- [x] Add options for making geometry initially invisible for geometry loaded from JSROOT
+- [x] Fix failing tests
+
+## Day 60 - 28 Jul 2020 - Tue
+- [x] Identify phoenix menu's geometries loading bugs and debug them
+- [x] Fix phoenix menu's bug by properly clearing and redefining phoenix menu in UI service
+- [x] Final exam
+
+## Day 61 - 29 Jul 2020 - Wed
+- [x] Final exam and family trip
+
+## Day 62 - 30 Jul 2020 - Thu
+- [x] Family trip
+
+## Day 63 - 31 Jul 2020 - Fri
+- [x] Family Trip
