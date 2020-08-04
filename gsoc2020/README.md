@@ -337,3 +337,21 @@ The work in progress or the new features should be scattered in branches with th
 
 ## Day 63 - 31 Jul 2020 - Fri
 - [x] Family Trip
+
+## Day 64 - 01 Aug 2020 - Sat
+- [x] Eid
+- [x] Start learning and working on angular testing
+- [x] Improve test for atlas component
+
+## Day 65 - 02 Aug 2020 - Sun
+- [x] Write test for `TrackMLComponent`
+- [x] Improve test coverage of `TrackMLComponent` to 100%
+
+## Day 66 - 03 Aug 2020 - Mon
+- [x] Complete unit tests for `IOOptionsDialogComponent`
+- [x] Improve `TrackMLComponent` tests
+- [x] Complete unit tests for `ZoomControlsComponent`
+- [x] Complete unit tests for `ObjectClippingComponent`
+
+## Day 67 - 04 Aug 2020 - Tue
+- [x] 
