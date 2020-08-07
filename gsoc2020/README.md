@@ -354,4 +354,26 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Complete unit tests for `ObjectClippingComponent`
 
 ## Day 67 - 04 Aug 2020 - Tue
-- [x] 
+- [x] Complete unit tests for `ConfigSliderComponent`
+- [x] Complete unit tests for `CollectionsInfoOverlayComponent`
+- [x] Complete unit tests for `OverlayComponent`
+- [x] Complete unit tests for `ObjectClippingComponent`
+- [x] Fix warnings in tests by importing `AppModule` where required
+
+## Day 68 - 05 Aug 2020 - Wed
+- [x] Complete unit tests for `TreeMenuItemComponent`
+- [x] Complete unit tests for `AutoRotateComponent`
+- [x] Complete unit tests for `MainViewToggleComponent`
+- [x] Complete unit tests for `ObjectSelectionComponent`
+- [x] Complete unit tests for `IoOptionsComponent`
+- [x] Complete unit tests for `InfoPanelComponent`
+- [x] Complete unit tests for `EventSelectorComponent`
+- [x] Complete unit tests for `DarkThemeComponent`
+- [x] Complete unit tests for `CollectionsInfoComponent`
+
+## Day 69 - 06 Aug 2020 - Thu
+- [x] Fix async behavior of script loader
+- [x] Complete unit tests for `PhoenixMenuNode`
+- [x] Fix unit test of `CMSComponent`
+- [x] Complete unit tests for `CMSLoader`
+- [x] Exclude `src/services/extras` from coverage
