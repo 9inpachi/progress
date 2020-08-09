@@ -377,3 +377,20 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Fix unit test of `CMSComponent`
 - [x] Complete unit tests for `CMSLoader`
 - [x] Exclude `src/services/extras` from coverage
+
+## Day 70 - 07 Aug 2020 - Fri
+- [x] Update jasmine, karma and testing related packages
+- [x] Fix tests not passing after jasmine and karma updates
+- [x] Complete unit tests for `ExperimentInfoComponent`
+- [x] Complete unit tests for `JSRootEventLoader`
+- [x] Add a sample root file to assets (for testing)
+
+## Day 71 - 08 Aug 2020 - Sat
+- [x] Complete unit tests for `InfoLoggerService`
+- [x] Complete unit tests for `ThreeService`
+- [x] Complete unit tests for `EventdisplayService`
+- [x] Complete unit tests for `UIService`
+- [x] Make an ig archive with lesser data for testing (to fix timeout errors for loading the archive)
+
+## Day 72 - 09 Aug 2020 - Sun
+- [x] Weekend
