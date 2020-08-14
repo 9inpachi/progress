@@ -390,7 +390,34 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Complete unit tests for `ThreeService`
 - [x] Complete unit tests for `EventdisplayService`
 - [x] Complete unit tests for `UIService`
-- [x] Make an ig archive with lesser data for testing (to fix timeout errors for loading the archive)
 
 ## Day 72 - 09 Aug 2020 - Sun
 - [x] Weekend
+
+## Day 73 - 10 Aug 2020 - Mon
+- [x] Make an ig archive with less data for testing (to fix timeout errors for loading the archive)
+- [x] Complete unit tests for `SceneManager`
+- [x] Increase code coverage to 90%
+- [x] Improve `ThreeService` tests
+
+## Day 74 - 11 Aug 2020 - Tue
+- [x] Keyboard controls for `UIService` operations
+- [x] Keyboard controls for `ThreeService` operations
+- [x] Keyboard controls for autorotate, zooming, clipping, switching views, toggling theme and preset views
+- [x] Wait for discussions with mentor(s)
+
+## Day 75 - 12 Aug 2020 - Wed
+- [x] Use shift + "t" for toggling theme with keyboard
+- [x] Wait for discussions with mentor(s) and shift work to weekend
+
+## Day 76 - 13 Aug 2020 - Thu
+- [x] Fix responsive behavior of Phoenix on mobile
+- [x] Move experiment info to top right
+- [x] Make phoenix menu responsive by changing styles
+- [x] Fix experiment info styling for mobile devices and show experiment logo only
+
+## Day 77 - 14 Aug 2020 - Fri
+- [x] Fix UI menu not scrolling by touch on mobile devices (because of material tooltip)
+- [x] Fix zoom hold on mobile devices
+- [x] Make object selection better
+- [x] Make object selection work on mobile devices (was not working before)
