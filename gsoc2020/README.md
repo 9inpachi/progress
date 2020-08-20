@@ -516,3 +516,18 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Have a detailed talk with Edward
 - [x] Start working on animating the event
 - [x] Animate propagation of tracks in debugging
+
+## Day 81 - 18 Aug 2020 - Tue
+
+- [x] Use `BufferGeometry` for all phoenix objects (since it's better for performance)
+- [x] Better animation for propagating tracks
+- [x] Animation for scaling jets
+- [x] Toggle for animating propagation of event objects
+
+## Day 82 - 19 Aug 2020 - Wed
+
+- [x] Close IO options dialog on loading an event
+- [x] Fix bug of toggling visibility, changing color and other UI operations on geometry and event data with the same object name
+- [x] Add animate event icon
+- [x] Use scale and position to animate other event objects (hits and clusters)
+- [x] Use buffer geometry for MuonChamber boxes
