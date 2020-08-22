@@ -531,3 +531,25 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Add animate event icon
 - [x] Use scale and position to animate other event objects (hits and clusters)
 - [x] Use buffer geometry for MuonChamber boxes
+
+## Day 83 - 20 Aug 2020 - Thu
+
+- [x] Add animation for collision of 2 particles
+- [x] Start event animation after collision of 2 particles
+- [x] Refactor code to make it consistent to use 2 spaces for tabs
+- [x] Create an `AnimationsManager` for managing animation related operations and move all animation code there
+- [x] Add an animation sphere to mock the propagation of event data for animation and make event data visible when the sphere reaches it
+
+## Day 84 - 21 Aug 2020 - Fri
+
+- [x] Edit hits geometry for animating hits to make only hits reached by the animation sphere visible on animation sphere tween update
+- [x] Make hits params more readable
+- [x] Create an extra tween for animating animation sphere beyond tracks
+- [x] Analyze Tracer to check how they implement bloom
+
+## Day 85 - 22 Aug 2020 - Sat
+
+- [x] Create an `EffectsManager` for managing `EffectComposer` and all post processing passes
+- [x] Move `OutlinePass` to `EffectsManager`
+- [x] Try applying bloom to colliding particles
+- [x] Minor improvements to event animation
