@@ -551,5 +551,47 @@ The work in progress or the new features should be scattered in branches with th
 
 - [x] Create an `EffectsManager` for managing `EffectComposer` and all post processing passes
 - [x] Move `OutlinePass` to `EffectsManager`
-- [x] Try applying bloom to colliding particles
+- [x] Try applying bloom to colliding particles (selective bloom doesn't work as expected and is not worth it)
 - [x] Minor improvements to event animation
+- [x] Analyze how Tracer animates events
+
+## Day 86 - 23 Aug 2020 - Sun
+
+- [x] Add function to animate event using clipping planes
+- [x] Fix bugs with optional callbacks in animation functions and other improvements
+- [x] Add support for animating event using clipping or using unique animations for different event data objects
+- [x] Resolve conflicts for all open pull requests
+
+## Day 87 - 24 Aug 2020 - Mon
+
+- [x] Merge all open pull requests (HSF/phoenix#117, HSF/phoenix#118, HSF/phoenix#119, HSF/phoenix#120)
+- [x] Fix major conflicts caused by merge pull requests
+- [x] Fix failing tests because of the new elements
+- [x] Fix overlay view not working
+- [x] Start working on VR
+
+## Day 88 - 25 Aug 2020 - Tue
+
+- [x] Fix bug with Phoenix menu showing duplicating configs for detector
+- [x] Apply better check to phoenix menu to see if the geometry folder already exists or not
+- [x] Analyze how three.js `VRCreateButton` works
+- [x] Create a custom VR button toggle for Phoenix which only shows on devices supporting VR
+- [x] Debug problems with VR session initiation and get to a point where it works and shows a single plane (bugged)
+- [x] Resolve conflicts for and merge PR for Runge-Kutta (HSF/phoenix#121)
+
+## Day 89 - 26 Aug 2020 - Wed
+
+- [x] Upgrade three.js to r120 and fix bugs introduced
+- [x] Fix bugs with phoenix menu
+- [x] Create a `VRManager` for managing VR operations and session
+- [x] For VR - use a separate minimal animate loop and set it to the main renderer
+- [x] Support for initializing VR dedicatedly that is usable application wide
+
+## Day 90 - 27 Aug 2020 - Thu
+
+- [x] Fix bug with collection info selection icons (HSF/phoenix#128)
+- [x] Improve the VR icon and fix the animate camera icon
+- [ ] Try fixing some `.obj` geometries loading black with no material
+- [x] Prepare for and present Phoenix in the ATLAS meeting
+- [x] Add event display's `loadJSONGeometry` method to console `window` object
+- [x] Make miscellaneous code improvements
