@@ -584,7 +584,7 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Upgrade three.js to r120 and fix bugs introduced
 - [x] Fix bugs with phoenix menu
 - [x] Create a `VRManager` for managing VR operations and session
-- [x] For VR - use a separate minimal animate loop and set it to the main renderer
+- [x] For VR - use a separate minimal animate loop and set it to the main renderer and clean it when exiting from VR
 - [x] Support for initializing VR dedicatedly that is usable application wide
 
 ## Day 90 - 27 Aug 2020 - Thu
@@ -595,3 +595,35 @@ The work in progress or the new features should be scattered in branches with th
 - [x] Prepare for and present Phoenix in the ATLAS meeting
 - [x] Add event display's `loadJSONGeometry` method to console `window` object
 - [x] Make miscellaneous code improvements
+
+## Day 91 - 28 Aug 2020 - Fri
+
+- [x] Remove playground VR and use dynamic year for HomeComponent
+- [x] Ability to end the VR session from the VR button
+- [x] Set up VR camera group to use the camera in VR mode
+- [x] Improve and optimize VR code
+- [x] Use a cloned camera for VR to safely make changes to it
+- [x] Add working controls for VR with ability to move in the headset direction or in the controller direction using the controller
+
+## Day 92 - 29 Aug 2020 - Sat
+
+- [x] Prepare GSoC report
+- [x] Fix tests after updates to VR code
+- [x] Create basic tests for `AnimationsManager`
+- [x] Get Travis CI to work
+
+## Day 93 - 30 Aug 2020 - Sun
+
+- [x] Upgrade to Angular 10
+- [x] Upgrade all npm packages to their latest versions and fix bugs introduced
+- [x] Create a demo video for Phoenix
+- [x] Update GSoC report
+
+## Day 94 - 31 Aug 2020 - Mon
+
+- [x] Create and add cover photo to link video in README
+- [x] Fix API docs generation by using absolute links in README
+- [x] Deploy the application
+- [x] Refactor `RungeKutta` code
+- [x] Create helper functions for extrapolating single or collections of tracks through `RungeKutta`
+- [x] Re-add scale option to Detector in phoenix menu
